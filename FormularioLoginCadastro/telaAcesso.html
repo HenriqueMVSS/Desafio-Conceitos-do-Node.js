@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-sacalable=0">
+  <title>Tela de acesso</title>
+  <link rel="stylesheet" href="./Styles/acess.css">
+  <link rel="stylesheet" href="./Styles/responsiveTelaTable.css">
+  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 class="h1acess">SEJA BEM VINDO A CENTRAL DE SUPORTE</h1>
+  <form action="table.html" >
+    <label>
+      Em que podemos te ajudar: <br>
+    <textarea name="digitacao" cols="30" rows="10" placeholder="  Descreva o que está ocorrendo.." required></textarea> <br><!--area de digitação de um texto-->
+    </label>
+    <div id="select">
+      <select name="table" required>
+        <option>Selecione uma categoria</option>
+        <option value="tb1">SO (Sitemas Operacionais) </option> <!--option é a tag que da opção ao usuario no select-->
+        <option value="tb2"> Hardware </option>
+      </select><br><br>
+      <input type="submit" value="Confirmar" ><a class="acess" href="formLogin.html" >Retornar para tela de login</a><br><br>
+    </div>
+    
+  </form>
+  
+</body>
+</html>

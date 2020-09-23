@@ -1,0 +1,90 @@
+*{ /* o *{} significa que vai ser aplicado a todos. */
+  box-sizing: border-box; /*evita que o  que elemento ultrapasse a altura e largura que definimos*/
+}
+
+body{
+  margin: 0px;
+  background: url('https://www.designerd.com.br/wp-content/uploads/2018/07/download.png');
+  background-position: 95vw;
+
+}
+
+
+a {
+  color: white ;
+  margin: 15px;
+ 
+}
+
+#esportes{
+  margin: 0px 0px 0px 596px;
+  border-radius: 15px;
+  width: 200px;
+
+}
+
+#compras{
+  margin: 0px 0px 0px 596px;
+  border-radius: 15px;
+  width: 200px;
+  height: 150px;
+}
+
+
+.testb{
+  align-items: center;
+  width: 170px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 15px 0px 0px 12px ;
+}
+
+
+.globoesporte{
+  margin:5px 150px 0px 30px; /*espaçamento externo,ordem horário começa sempre de cima*/
+  margin-bottom: 0px;
+  padding: 20px 20px 0px 20px; /*Espaçamento interno, ordem horário começa sempre de cima*/
+  font-size: 18px;
+}
+
+.futemax{
+  margin: 0px 0px 0px 24px ; 
+  font-size: 18px;
+}
+.amazon{
+  margin:12px;
+  font-size: 18px;
+}
+
+.imfut{
+  border:2px dotted #0F0;
+  border-radius: 15px;
+  width: 200px;
+  margin:5px 30px 30px 15px ;
+  padding: 5px;
+}
+
+.imama{
+  width: 200px;
+  margin:20px;
+  border:3px dotted #000;
+  border-radius: 15px;
+}
+
+.amazon:hover{ /*  Quando passar o mouse irá ficar azul */
+  color: rgb(00, 00, 255);
+
+}
+.amazon:visited{
+  background-color: #00F
+}
+.imge{
+  width: 200px;
+  margin: 0px 0px 45px 80px;
+  border: 1px solid #00FF00;
+  border-radius: 15px;
+  padding: 5px;
+ 
+}
+

@@ -1,0 +1,236 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  background:  rgb(19, 117, 209);
+  background:linear-gradient(-90deg,white,blue); /*degradê*/
+ 
+}
+
+/* Módulo de Cadastro*/
+
+.topRegistration{
+  display: flex;
+  height: 150px;
+  background-color: rgb(124, 115, 206);
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div #Register{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+label{
+  font-size: 25px;
+  display: block;
+  margin: 15px;
+  color: #fff;
+}
+
+form .name{
+  width: 248px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+form .surname{
+  width: 197px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+form .email{
+  width: 240px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+
+}
+
+form .date{
+  width: 197px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 128px;
+  color: rgb(73, 71, 71);
+
+}
+
+form .genre{
+  border: 4px dotted #ffc ;
+  width: 300px;
+  margin-right: 42px;
+}
+form .genre p{
+  margin: 10px
+}
+
+form .user{
+  width: 168px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 25px ;
+
+}
+
+form .key{
+  width: 185px;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 25px ;
+
+}
+
+form .buton{
+  border: 1px solid rgb(105, 102, 102);
+  border-radius: 15px;
+  width: 250px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+form .buton:hover{
+  background-color:  rgb(255, 255, 255);
+  color:wheat;
+}
+
+/*Módulo de login*/
+
+.topoLogin{
+  background-color:  rgb(124, 115, 206);;
+  height: 200px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: white;
+  margin-bottom: -45px;
+ 
+}
+
+#h1Login{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  
+}
+
+.formLogin{
+  
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+form .login{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 0px;
+  height: 400px;
+  background: rgb(173, 166, 211);
+}
+
+form .login label{
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  
+}
+
+form .login input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid rgb(161, 116, 219);
+  border-radius: 10px;
+  width: 160px;
+  height: 35px;
+  margin-left: 5px;
+
+}
+
+form .login button{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 7px;
+  background-color: rgb(254, 253, 255);
+  color:rgb(161, 116, 219) ;
+  width: 170px;
+  margin-top: 20px;
+  margin-bottom: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .login button:hover{
+  background-color: rgb(218, 207, 207);
+  color: white;
+  transition: all 0.3s linear; /*Realiza um efeito de transição*/
+
+}
+
+form #logado input{
+  margin-top: -15px;
+  font-size: 22px;
+  color: white;
+  
+}
+form #logado label{
+  
+  font-size: 22px;
+  color: white;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: white;
+   
+
+}
+
+a:hover{
+  transition: all 0.3s linear;
+  color: rgb(129, 129, 156);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-sacalable=0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="./Styles/form.css">
+</head>
+<body>
+  <div class="topoLogin">
+      <div id="h1Login">Realize seu Login</div>
+  </div>
+ 
+ <div class="lt">
+  <form  class="formLogin" action="telaAcesso.htm" method="GET"> <!--method POST é o contrario de GET envia os dados de maneira interna, não aparece na url-->
+    <!--<header> 
+      <h1 class="log">Realize seu Login</h1>
+    </header> --> <!--tag header é a tag do cabeçalho da pagina-->
+    <div class="login">
+    <label>
+      Login: <br>
+      <input type="text" name="user" placeholder="Digite seu usuario" required autofocus> <!--autofocus automaticamente o cursor ja vai para o local indicado nesse caso usuario-->
+    </label>
+  
+    <label>
+      Senha: <br>
+      <input type="password" name="key" placeholder="Digite sua senha" required maxlength="6"> 
+    </label>
+    
+    <button>Realizar Login</button>  
+    </div>
+    <div id="logado">
+      <label><input type="checkbox">Permanecer Logado.</label>
+    </div>
+    <a id="Cadastro" href="formCadastro.html">Realizar Novo Cadastro</a>
+  </form><br>
+  
+  </div>
+</body>
+</html>

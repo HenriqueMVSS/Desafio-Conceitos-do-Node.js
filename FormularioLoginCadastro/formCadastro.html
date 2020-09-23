@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-sacalable=0">
+  <title>Tela de Cadastro</title>
+  
+  <link rel="stylesheet" href="./Styles/form.css">
+</head>
+<body>
+  <div class="topRegistration">
+    <div>
+      <label id="Register">Realize Seu Cadastro</label>
+    </div>
+    
+  </div>
+  <!--<audio style="margin-left: -15px;" autoplay controls>
+    <source src="/05 Litrao.mp3"  type="audio/mpeg">
+  </audio> inseri audio na tela -->
+  <!--<header class="cabecalhoCad">
+    <h1>Realize seu cadastro</h1>
+  </header>-->
+  
+<form class="cadastro" action="formLogin.html" method="GET">
+    <!--input entrada de dados do usuario-->
+  <div id="testecad"></div>
+    <label >
+      Nome: 
+      <input class="name"type="text" name="name" placeholder="Nome" required autofocus autocomplete="on"> <!--placeholder nome que vai aparecer no input-->
+    </label>
+    <label>
+      Sobrenome:
+      <input class="surname" type="text" name="surname" placeholder="Sobrenome" required autocomplete="on"> <!--autocomplete é utilizado para auto completar um campo -->
+    </label>
+    
+    
+     <label>
+       E-mail: 
+       <input class="email" type="email" name="email" placeholder="e-mail" required>
+     </label>
+     <label>
+       Data de Nascimento: <br>
+       <input class="date" type="date" name="date" required> 
+     </label>
+    
+    <label class="genre" >
+      <p>Gênero:</p> 
+      <label id="male" for="male">
+      <input id="radio" type="radio" name="sex" id="male" required>
+      Masculino
+      </label>
+      <label for="female">
+        <input type="radio" name="sex" id="female" required>
+        Feminino
+      </label>
+    </label>
+    
+    <label>
+      Usuário:
+      <input class="user" type="text" name="user"  placeholder="Usuario" required>
+    </label>
+    <label>
+      Senha:
+      <input class="key" type= "password" name="password" placeholder="Senha" required maxlength="6"> <!--maxlength define a quantidade de caracteres, nesse caso defini 6-->
+    </label>
+    <button class="buton">Realizar cadastro</button>
+  </div> 
+</form>
+</body>
+</html>
