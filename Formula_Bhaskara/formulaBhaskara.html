@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title> Cálculo de Bhaskara </title>
+
+    <script>
+	
+		var A = prompt("Digite o valor de A:");
+		var B = prompt("Digite o valor de B:");
+		var C = prompt("Digite o valor de C:");
+		var x1;
+		var x2;
+
+		var delta = (B * B) - 4 * A * C;
+
+		document.write("Delta = " + delta + "<br/><br/>");
+
+		if(delta < 0){
+		  document.write("Delta negativo, não existe raíz real. <br/>");  
+		} else{
+		  
+		  document.write("Delta positivo, raízes diferentes: <br/>");  
+		  
+		  x1 = (-B + Math.sqrt(delta)) / (2 * A);
+		  x2 = (-B - Math.sqrt(delta)) / (2 * A);
+		  
+		  document.write("x' = " + x1 + "<br/>");
+		  document.write("x'' = " + x2 + "<br/>");
+		}
+
+</script>
+</head>
+<body>
+</body>
+</html>
